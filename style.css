@@ -1,0 +1,87 @@
+* {
+  background-color: rgb(18, 17, 19);
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+  font: 400% Times;
+  margin-bottom: -3%;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(240, 240, 222);
+  font: 250% Times;
+  margin-bottom: 5%;
+}
+
+h3 {
+  color: rgb(241, 238, 235);
+  font: 200% serif;
+  text-align: center;
+}
+
+h4 {
+  color: antiquewhite;
+  margin-left: 1%;
+  font-size: 120%;
+}
+
+p {
+  color: white;
+}
+
+.see-all-items {
+  text-decoration: none;
+  margin-right: 5%;
+  font-size: 150%;
+  background-color: rgb(255, 255, 255);
+  padding: 14px 25px;
+}
+
+.coposDeShot {
+  width: 40%;
+  height: 40%;
+  margin-bottom: 10%;
+  border-radius: 30%;
+  border: 5px solid azure;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link {
+  text-align: center;
+  margin-top: -3%;
+}
+
+a.se-inscreva {
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  background-color: rgb(255, 255, 255);
+  padding: 14px 25px;
+  margin-bottom: 15%;
+}
+
+a:hover {
+  color: red;
+}
+
+.grid-container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.fotoNoGrid {
+  width: 250px;
+  height: 250px;
+}
+
+.grid-item {
+  border: solid thistle;
+  padding-bottom: 10%;
+}
